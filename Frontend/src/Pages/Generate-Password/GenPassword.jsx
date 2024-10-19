@@ -75,6 +75,14 @@ const GenPassword = () => {
           </button>
         </div>
         <div className="mb-4">
+          <button
+            onClick={generatePassword}
+            className="w-full bg-emerald-500 text-white py-2 rounded hover:bg-emerald-600 transition-colors"
+          >
+            Generate Unique Password
+          </button>
+        </div>
+        <div className="mb-4">
           <label className="block mb-2 text-sm font-medium text-gray-700">Password Length: {length}</label>
           <div className="flex items-center space-x-4">
             <input
