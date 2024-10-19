@@ -14,7 +14,7 @@ const About = () => {
             <li className="mb-2 animate-fade-in-up">Secure storage for all your passwords</li>
             <li className="mb-2 animate-fade-in-up delay-100">Advanced password generator</li>
             <li className="mb-2 animate-fade-in-up delay-200">User-friendly interface</li>
-            <li className="mb-2 animate-fade-in-up delay-300">Cross-device synchronization</li>
+            <li className="mb-2 animate-fade-in-up delay-300">Cross-device synchronization (Coming Soon).</li>
           </ul>
           <h2 className="text-2xl font-semibold mb-4 text-lime-600 animate-slide-in-right">Our Mission</h2>
           <p className="text-lg mb-6 text-lime-900 animate-fade-in">
@@ -59,6 +59,12 @@ const About = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                 </svg>
                 <span className="font-semibold">Portfolio: </span> <a href="https://harsh-react-portfolio.vercel.app/" className="text-lime-600 hover:underline" target="_blank" rel="noopener noreferrer">Harsh's Portfolio</a>
+              </li>
+              <li className="mb-2 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-lime-600" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+                <span className="font-semibold">Instagram:</span> <a href="https://www.instagram.com/harsh_final.aep/" className="text-lime-600 hover:underline" target="_blank" rel="noopener noreferrer">@harsh_final.aep</a>
               </li>
             </ul>
             <p className="text-lg mt-4 text-lime-900">

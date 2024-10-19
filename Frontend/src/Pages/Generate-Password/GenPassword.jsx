@@ -11,7 +11,7 @@ const GenPassword = () => {
 
   useEffect(() => {
     generatePassword();
-  }, [includeUppercase, includeLowercase, includeNumbers, includeSymbols,length])
+  }, [includeUppercase, includeLowercase, includeNumbers, includeSymbols, length])
 
   const generatePassword = () => {
     let charset = ''
@@ -46,7 +46,7 @@ const GenPassword = () => {
       draggable: true,
       progress: undefined,
       theme: "light"
-      });
+    });
   }
 
   return (
@@ -125,6 +125,7 @@ const GenPassword = () => {
             Include Symbols
           </label>
         </div>
+        {!includeUppercase && !includeLowercase && !includeNumbers && !includeSymbols && <p className='text-center text-red-700 font-bold'>Uppercase & Lowercase Is set Default</p>}
       </div>
     </div>
   )
@@ -141,4 +142,5 @@ export default GenPassword
             </span>
           </h1>
         </div>
-      </div> */}
+      </div> 
+*/}

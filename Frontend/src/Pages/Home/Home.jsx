@@ -14,7 +14,7 @@ const Home = () => {
             Your secure, all-in-one password management solution
           </p>
           <div className="flex justify-center space-x-4 mb-16">
-            <NavLink className="bg-lime-600 hover:bg-lime-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 animate-bounce-in">
+            <NavLink to="my-passwords" className="bg-lime-600 hover:bg-lime-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 animate-bounce-in">
               Get Started
             </NavLink>
             <NavLink to="/about-us" className="bg-white text-lime-600 font-bold py-3 px-6 rounded-lg border-2 border-lime-600 hover:bg-lime-100 transition duration-300 ease-in-out transform hover:scale-105 animate-bounce-in delay-150">
